@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MVC2022.Context;
+using MVC2022.Repositories;
+using MVC2022.Repositories.interfaces;
 
 namespace MVC2022;
 
@@ -19,7 +21,8 @@ namespace MVC2022;
 
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+        services.AddTransient<ILancheRepository,LancheRepository>();
+        services.AddTransient<ICategoriaRepository,CategoriaRepository>();
 
         services.AddControllersWithViews();
     }
