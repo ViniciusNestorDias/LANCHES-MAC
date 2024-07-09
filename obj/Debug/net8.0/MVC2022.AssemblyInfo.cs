@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC2022")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85fb96bd4be973596157e99fb1d3a52b82ff6bbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9772d2c55277a3535c59d888380442a9da3f851d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC2022")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC2022")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

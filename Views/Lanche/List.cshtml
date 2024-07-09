@@ -2,19 +2,13 @@
 
     <div>
         <h1>
-            @ViewData["Titulo"]
+           Todos os lanches
         </h1>
     </div>
-    <h2> 
-        @ViewData["Time"]
-    </h2>
-    <hr />
-    <h3>@ViewBag.total @ViewBag.TotalCount</h3>
-    <hr />
-    <h3>@TempData["Nome"]</h3>
+   
 
     @foreach(var lanche in Model)
-{
+    {
     <div>
         <h4>
             @lanche.Nome
@@ -23,4 +17,4 @@
         <h3>Preco : @lanche.Preco.ToString("c")</h3>
         
     </div>
-}
+    }

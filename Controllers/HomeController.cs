@@ -9,7 +9,6 @@ namespace MVC2022.Controllers
       
         public IActionResult Index()
         {
-            TempData["Nome"] = "Vinicius";
             return View();
         }
 
